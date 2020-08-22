@@ -1,0 +1,355 @@
+/************Selectors**************/
+
+body{
+   text-align: center;
+   background-color: #fff8f1;
+}
+
+hr{
+    width: 10%;
+    display: inline-block;
+    border: solid black 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-bottom: none;
+    margin-bottom: 10px;
+
+}
+
+/************Class-Selectors**************/
+    .navbar{
+        background-color: #fff8f1;
+        color: black;
+    }
+
+    .navbar-light .navbar-toggler{
+        border-color: #fff8f1;
+    }
+    /****top***/
+
+        .top-div{
+            margin: 150px auto 30px auto;
+        }
+
+        .design{
+            width:70%;
+            margin: 30px auto;
+        }
+
+        .top-title{
+            font-family: 'Parisienne', cursive;
+            font-weight: 400;
+            font-size: 3.5rem;
+        }
+
+        .top-subtitle{
+            font-family: 'Roboto', sans-serif;
+            padding-top: 30px;
+            font-size: 2.7rem;
+        }
+
+        .top-image{
+            margin: 30px auto;
+            width: 30%;
+            height: 30%;
+        }
+    /****intro****/
+        .intro-para{
+            width: 60%;
+            margin: 50px auto 50px auto;
+        }
+
+        .intro-title{
+            font-family: 'Lobster', cursive;
+            padding-top: 150px;
+            font-size: 3.5rem;
+        }
+
+        .intro-para{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            line-height: 1;
+            font-size: 1.25rem;
+        }
+        
+        .intro-logo{
+            margin: 32px auto 50px auto;
+            width: 20%;
+        }
+    /****Education****/
+        
+        .education-container{
+            text-align: left;
+            margin-left: 15%;
+            width: 60%;
+            padding: 50px 0px;
+        }
+
+        .circle{
+            width: 20px;
+            margin-right:10px;
+        }
+
+        .vl{
+            border-left: 3px solid black;
+            height: 130px;
+            display: inline-block;
+            float: left;
+            margin-left: 0.5rem;
+            margin-right: 2rem;
+        }
+
+        .education-subtitle{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+
+        .eduction-title{
+            font-family: 'Lobster', cursive;
+            font-size: 3.5rem;
+            padding-top: 150px;
+        }
+
+        .education-para{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 1.25rem;
+        }
+    /*****skills******/
+
+        .skills-row{
+            width: 50%;
+            margin: 0px auto 0px auto; 
+            padding-bottom: 20px;
+        }
+
+        .skills-title{
+            font-family: 'Lobster', cursive;
+            font-size: 3.5rem;
+            margin: 50px auto 50px auto;
+        }
+        
+         .skills-points{
+            margin-top: 30px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+        } 
+
+        .para{
+            text-align: left;
+        }
+
+       
+    /*******experience********/
+
+        .experience-title{
+           padding-bottom: 50px;
+           padding-top: 30px;
+           font-family: 'Lobster', cursive;
+           font-size: 3.5rem;
+        }
+
+        .experience-container{
+            width: 60%;
+        }
+
+        .img1{
+            width: 50%;
+
+        }
+
+        .img2{
+            width: 50%;
+
+        }
+
+        .img3{
+            width: 50%;
+        }
+
+        .experience-points{
+            width: 70%;
+            margin: 0px auto 0px auto;
+        }
+
+       .experience-row{
+           margin: 30px auto 80px auto;
+       }
+
+       .exp{
+           text-align: left;
+       }
+       
+    /*******hobbies**********/
+
+
+
+    .hobbies-title{
+        margin-top: 50px;
+        padding-top: 50px;
+        font-family: 'Lobster', cursive;
+        font-size: 3.5rem;
+    }
+
+    .hobbies-points{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .hobbies-icon{
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    
+    /********contact*******/
+
+        .contact-title{
+            margin-top: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-family: 'Lobster', cursive;
+            font-size: 3.5rem;
+        }
+
+        .contact{
+            padding-bottom: 50px;
+
+        }
+
+        .contact-para{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+            padding-bottom: 20px;
+            width: 45%;
+            margin: 0px auto 0px auto;
+        }
+
+        .contact-icon{
+            width: 5%;
+            margin-right: 30px;
+        }
+
+/************Id Selectors**************/
+
+
+  #icon3{
+    width: 20%;
+  }
+
+  #icon2{
+    width: 15%;
+  }
+
+  #icon1{
+    width: 25%;
+  }
+    /****top***/
+
+    /****intro****/
+    /****Education****/
+    #vll{
+        border-left: 3px solid black;
+        height: 100px;
+        display: inline-block;
+        float: left;
+        margin-left: 0.5rem;
+        margin-right: 2rem;
+    }
+
+    #year{
+        font-size: 1rem;
+    }
+    /*****skills******/
+    /*******experience********/
+    /*******hobbies**********/
+
+     #hobby1{
+        margin: 0px auto;
+        padding-top: 20px
+    }
+
+    #hobby2{
+        margin: 0px auto;
+        padding-top: 20px
+    } 
+
+    #hobby3{
+        
+        padding-top: 20px;
+        width: 18.5%;
+        margin: 0px auto;
+    }
+
+    #hobbies-icon3{
+        width: 18%;
+        
+    }
+    /********contact*******/
+
+
+ /**********media query**************/
+    @media (max-width: 1028px) {
+        .vl{
+            height: 250px;
+        }
+
+        #vl1{
+            height: 200px;
+        }
+
+        #vll{
+            height: 180px;
+        }
+
+        #hobby3{
+            width: 37%;
+        }
+
+        .contact-para{
+            width: 90%;
+        }
+
+        .para{
+            text-align: center;
+        }
+
+        .exp{
+            text-align: center;
+        }
+
+        #icon1{
+            width: 5%;
+          }
+
+        #icon2{
+            width: 5%;
+          }
+
+        #icon3{
+            width: 5%;
+          }
+
+           .wrapper {
+            display: flex;
+            flex-direction: column;
+          }
+          .wrapper div:first-child {
+            order: 1;
+          } 
+
+          .img1{
+              padding-bottom: 20px;
+          }
+         
+          .img2{
+            padding-bottom: 20px;
+        }
+
+        .img3{
+            padding-bottom: 20px;
+        }
+    }
